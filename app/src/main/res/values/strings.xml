@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">GeneralCode</string>
+    <string name="notification">Notification</string>
+    <string name="thread">Thread</string>
+    <string name="encrypted_shared_preferences">Encrypted Shared Preferences</string>
+    <string name="run_thread">Run thread</string>
+    <string name="encrypt_preference">Encrypt Preference</string>
+    <string name="enter_name">Enter name</string>
+    <string name="enter_age">Enter age</string>
+    <string name="encrypted_text">Encrypted Text</string>
+    <string name="decrypt_preference">Decrypt Preference</string>
+    <string name="clear">clear</string>
+</resources>
