@@ -1,10 +1,10 @@
-package com.example.generalcode
+package com.example.generalcode.ui
 
 import android.content.Intent
-import android.content.SharedPreferences
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.view.View
+import com.example.generalcode.R
 
 class MainActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -23,5 +23,20 @@ class MainActivity : AppCompatActivity() {
     fun sharedPreferences(view: View) {
         val sharedPreferencesIntent  = Intent(applicationContext, EncryptedPreferencesActivity::class.java)
         startActivity(sharedPreferencesIntent)
+    }
+
+    fun foregroundService(view: View) {
+        val foregroundServiceIntent  = Intent(applicationContext, ForegroundServiceActivity::class.java)
+        startActivity(foregroundServiceIntent)
+    }
+
+    fun intentService(view: View) {
+        val intentServiceIntent  = Intent(applicationContext, IntentServiceActivity::class.java)
+        startActivity(intentServiceIntent)
+    }
+
+    fun boundService(view: View) {
+        val boundServiceIntent  = Intent(applicationContext, BoundServiceActivity::class.java)
+        startActivity(boundServiceIntent)
     }
 }

@@ -10,4 +10,8 @@
     <string name="encrypted_text">Encrypted Text</string>
     <string name="decrypt_preference">Decrypt Preference</string>
     <string name="clear">clear</string>
+    <string name="start_service">Start Service</string>
+    <string name="foreground_service">Foreground Service</string>
+    <string name="intent_service">Intent Service</string>
+    <string name="bound_service">Bound Service</string>
 </resources>

@@ -1,4 +1,4 @@
-package com.example.generalcode
+package com.example.generalcode.ui
 
 import android.content.SharedPreferences
 import android.os.Bundle

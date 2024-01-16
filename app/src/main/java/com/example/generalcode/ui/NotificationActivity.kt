@@ -1,4 +1,4 @@
-package com.example.generalcode
+package com.example.generalcode.ui
 
 import android.app.NotificationChannel
 import android.app.NotificationManager
@@ -15,6 +15,7 @@ import androidx.work.OneTimeWorkRequestBuilder
 import androidx.work.WorkManager
 import androidx.work.Worker
 import androidx.work.WorkerParameters
+import com.example.generalcode.R
 
 class NotificationActivity : AppCompatActivity() {
 

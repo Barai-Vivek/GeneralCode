@@ -1,4 +1,4 @@
-package com.example.generalcode
+package com.example.generalcode.ui
 
 import android.os.Bundle
 import android.os.Handler
@@ -6,6 +6,7 @@ import android.os.Looper
 import android.view.MenuItem
 import android.view.View
 import androidx.appcompat.app.AppCompatActivity
+import com.example.generalcode.R
 
 class ThreadActivity : AppCompatActivity() {
 
@@ -21,8 +22,6 @@ class ThreadActivity : AppCompatActivity() {
 
         supportActionBar?.setDisplayHomeAsUpEnabled(true)
         supportActionBar?.title = "Thread"
-
-
     }
 
     fun runThread(view: View){
