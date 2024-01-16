@@ -22,6 +22,18 @@ This repository contains a simple Android application demonstrating different fu
    - Utilizes Android's `EncryptedSharedPreferences`.
    - Includes a button for a demo task involving encrypted preferences.
 
+5. **ForegroundServiceActivity:**
+   - Demonstrates the usage of a Foreground Service in Android.
+   - Includes a button to start the Foreground Service.
+
+6. **IntentServiceActivity:**
+   - Illustrates the usage of IntentService in Android.
+   - Includes a button for a demo task involving IntentService.
+
+7. **BoundServiceActivity:**
+   - Demonstrates the usage of a Bound Service in Android.
+   - Includes a button to start the Bound Service and perform tasks.
+
 ## Usage
 
 To run the application, follow these steps:
